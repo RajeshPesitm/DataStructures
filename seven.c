@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(int argc,cgar const *argv[])
 {
-    printf("This is seventh program")
+    printf("This is seventh program");
+    return 0;
 }
