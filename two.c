@@ -26,6 +26,7 @@ void replace(char mainstr[],char pattern[],char replacement[],int pointm)
 }
 int main(int argc, char const *argv[])
 {
+	printf("This is the second modification");
     char mainstr[50],pattern[50],replacement[50];
 	int pointm;
     printf("enter the main string\n");
