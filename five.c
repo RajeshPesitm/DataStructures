@@ -5,4 +5,5 @@ int main(int argc, char const *argv[])
     /* code */
     printf("this is fifth program\n"); 
     return 0;
+    print("hello");
 }
