@@ -10,7 +10,7 @@ int find(char mainstr[],char pattern[])
 		//puts(window);
 		if(strcmp(window,pattern)==0) return i;        			
 	}
-	return -1;
+	return 0;
 }	
 	
 
@@ -41,7 +41,8 @@ int main(int argc, char const *argv[])
 	}while(pointm!=-1);
 	printf("the main string after replacement\n");
 	puts(mainstr);
+	scanf(%d)
 
     /* code */
-    return 0;
+    return 1;
 }
