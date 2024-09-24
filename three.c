@@ -5,5 +5,7 @@ int main(int argc, char const *argv[])
     printf("Infix to postfix");
     for(i=0;i<n;i++)
         printf("Hi how are you");
+    for(j=0;j<n;j++)
+        printf("escape the matrix");
     return 0;
 }
