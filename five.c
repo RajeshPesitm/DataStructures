@@ -1,8 +1,9 @@
 #include<stdio.h>
-int main(int argc, char const *argv[])
+int(int argc, char const *argv[])
 {
     int a;
     /* code */
-    printf("this is fifth program\n"); 
-    return 0;
+    printf("this is a fifth program\n");
+    printf("hello world");git
+    return0; 
 }
