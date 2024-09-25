@@ -34,7 +34,7 @@ void push(struct Stack* stack, int item) {
         return;
     }
     stack->items[++stack->top] = item;
-    printf("%d pushed to stack\n", item);
+    printf("%d pushed to stack\n", item)
 }
 
 // Function to remove an item from the stack
