@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
 	pointm=find(mainstr,pattern);
 	replace(mainstr,pattern,replacement,pointm);
 	}while(pointm!=-1);
-	printf("the main string after replacement\n");
+	printf("the main string after replacement is\n");
 	puts(mainstr);
 
     /* code */
