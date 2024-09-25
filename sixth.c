@@ -49,7 +49,7 @@ int pop(struct Stack* stack) {
 // Function to return the top item of the stack without removing it
 int peek(struct Stack* stack) {
     if (isEmpty(stack)) {
-        printf("Stack is empty! Cannot peek\n");
+        printf("Stack is empty! Can't peek\n");
         return -1; // Return -1 to indicate stack is empty
     }
     return stack->items[stack->top];
