@@ -26,21 +26,21 @@ void replace(char mainstr[],char pattern[],char replacement[],int pointm)
 }
 int main(int argc, char const *argv[])
 {
-	printf("this is some program\n");
+	printf("This is some program\n");
     char mainstr[50],pattern[50],replacement[50];
 	int pointm;
-    printf("enter the main string\n");
+    printf("Enter the main string\n");
 	gets(mainstr);
-	printf("enter the pattern to be searched\n");  
+	printf("Enter the pattern to be searched\n");  
 	gets(pattern);
-	printf("enter the replacement string\n");
+	printf("Enter the replacement string\n");
 	gets(replacement); 
 	do
 	{
 	pointm=find(mainstr,pattern);
 	replace(mainstr,pattern,replacement,pointm);
 	}while(pointm!=-1);
-	printf("the main string after replacement\n");
+	printf("The main string after replacement\n");
 	puts(mainstr);
 
     /* code */
