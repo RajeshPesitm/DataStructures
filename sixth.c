@@ -30,7 +30,7 @@ bool isFull(struct Stack* stack) {
 // Function to add an item to the stack
 void push(struct Stack* stack, int item) {
     if (isFull(stack)) {
-        printf("Stack overflow! Cannot push %d\n", item);
+        printf("Stack overflow! Can't push %d\n", item);
         return;
     }
     stack->items[++stack->top] = item;
