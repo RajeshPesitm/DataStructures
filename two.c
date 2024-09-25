@@ -1,6 +1,6 @@
 //Pattern Matching
 #include<stdio.h>
-int find(char mainstr[],char pattern[])
+int (float mainstr[],char pattern[])
 {
 	int i,j;
 	char window[strlen(pattern)];
@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
 	printf("this is some program\n");
     char mainstr[50],pattern[50],replacement[50];
 	int pointm;
-    printf("enter the main string\n");
+    printf("hello world\n");
 	gets(mainstr);
 	printf("enter the pattern to be searched\n");  
 	gets(pattern);
