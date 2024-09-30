@@ -6,4 +6,5 @@ int main(int argc, char const *argv[])
     for(i=0;i<n;i++)
         printf("Hi how are you");
     return 0;
+    scanf("%s",)
 }
