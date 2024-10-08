@@ -54,6 +54,8 @@ git commit -m "type something"
 
 ```
 git branch -b NewBranch
+```
+```
 create three.c four.c  
 git add .
 git commit -m "type something"
